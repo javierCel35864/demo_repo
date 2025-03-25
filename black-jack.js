@@ -8,19 +8,20 @@ let isAlive = true;
 let message = "";
 if(sum <= 20){
     message = "draw card?";
-    console.log(message);
+    
 }
 else if(sum === 21){
     message = "win!";
-    console.log(message);
+    
     blackJack = true;
 }
 else{
 
     message = "you lose";
-    console.log(message);
+    
     isAlive = false;
 }
 
 console.log("blackJack win: " + blackJack);
 console.log("isAlive: " + isAlive);
+console.log(message);
